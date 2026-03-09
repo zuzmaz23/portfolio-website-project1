@@ -9,6 +9,10 @@ class About(models.Model):
         verbose_name = "O mnie"
         verbose_name_plural = "O mnie"
 
+    def __str__(self):
+        return self.title
+    
+
     @classmethod
     def get_about(cls):
         about, created = cls.objects.get_or_create(pk=1)
