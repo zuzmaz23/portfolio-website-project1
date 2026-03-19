@@ -169,11 +169,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -2px;
     line-height: 0;
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 35%, #0f3460 70%, #533483 100%);
+    border: none;
 }
 .hero-wave svg{
     display: block;
     width: 100%;
     height: 100%;
+    border: none;
 }
 .particles-container {
     position: absolute;
@@ -182,9 +184,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
     z-index: 1;
-
 }
-
 
 
 .hero-content {
@@ -1034,3 +1034,492 @@ overflow: hidden;
     font-size: 0.9rem;
     letter-spacing: 0.5px;
 }
+@media (max-width: 992px){
+    
+    section{
+        padding:70px 0;
+    }
+    .section-title{
+        font-size: 2.5rem;
+    }
+    .about-content,
+    .contact-form{
+        padding: 40px 30px;
+    }
+    .about-image-wrapper{
+        height: 300px;
+    }
+    .about-avatar{
+        width: 200px;
+        height:200px;
+    }
+    .about-avatar i{
+        font-size:6rem;
+    }
+    .about-image-decoration{
+        width:230px;
+        height:230px;
+    }
+    .stat-icon{
+        min-width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .hero-section h1{
+        font-size: 2.5rem;
+    }
+    .typing-text{
+        font-size: 1.2rem;
+    }
+    .section-title{
+        font-size: 2rem;
+    }
+    section{
+        padding: 50px 0;
+    }
+    .about-content,
+    .about-form{
+        padding: 30px 20px;
+    }
+    .contact-info-title{
+        font-size: 1.5rem;
+    }
+    .contact-info-title:hover{
+        transform: none;
+    }
+    .navbar-brand{
+        font-size: 1.25rem;
+        gap: 10px;
+    }
+    .brand-icon{
+        font-size: 1.25rem;
+    }
+    .brand-subtitle{
+        font-size: 0.7rem;
+    }
+    .btn{
+        padding: 12px 28px;
+        font-size: 0.95rem;
+    }
+    .hero-buttons .btn{
+        display: block;
+        width: 100%;
+        margin: 10px 0 ;
+    
+    }
+    .nav-link-button{
+        margin-left: 0;
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+    }
+    .social-links{
+        justify-content: center;
+    }
+    .project-imag-wrapper{
+        height: 200px;
+    }
+    .projects-slider-container{
+        padding: 0.60px;
+    }
+    .projectsSwiper .swiper-button-next,
+    .projectsSwiper .swiper-button-prev{
+        width: 45px;
+        height: 45px;
+    }
+    .projectsSwiper .swiper-button-prev{
+        left: -50px;
+    }
+    .projectsSwiper .swiper-button-next{
+        right: -50px;
+    }
+    .projectsSwiper .swiper-button-next::after,
+    .projectsSwiper .swiper-button-prev::after{
+        font-size: 18px;
+    }
+    .projectsSwiper .swiper-button-next:hover,
+    .projectsSwiper .swiper-button-prev:hover{
+        transform: translateY(-50%) scale(1.1);
+    }
+
+}
+@media (max-width: 576px) {
+    
+    .hero-section {
+        min-height: 100vh;
+        padding: 100px 15px 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        line-height: 1.3;
+    }
+
+    .hero-section h1 .gradient-text {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .typing-container {
+        min-height: 70px;
+        margin-bottom: 1.5rem;
+    }
+
+    .typing-text {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .cursor {
+        font-size: 0.9rem;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-buttons .btn {
+        flex: 1;
+        min-width: 140px;
+        max-width: 180px;
+        margin: 0 !important;
+        padding: 14px 20px;
+        font-size: 0.9rem;
+        white-space: nowrap;
+    }
+
+    .hero-buttons .btn i {
+        font-size: 0.95rem;
+    }
+
+    .scroll-indicator {
+        margin-top: 40px;
+    }
+
+    .scroll-down {
+        font-size: 1.5rem;
+    }
+
+    
+    .particles-container {
+        display: none;
+    }
+
+    
+    section {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+        margin-bottom: 40px;
+    }
+
+    
+    .about-image-wrapper {
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+    .about-avatar {
+        width: 180px;
+        height: 180px;
+        border: 5px solid white;
+    }
+
+    .about-avatar i {
+        font-size: 5rem;
+    }
+
+    .about-image-decoration {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-content {
+        padding: 30px 20px;
+    }
+
+    .about-quote {
+        font-size: 2rem;
+        top: 15px;
+        left: 15px;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+        line-height: 1.7;
+        padding-left: 0;
+    }
+
+    .about-stats {
+        gap: 12px;
+    }
+
+    .stat-item {
+        padding: 15px;
+        min-width: 100%;
+    }
+
+    .stat-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .stat-icon i {
+        font-size: 1.3rem;
+    }
+
+    .stat-info h4 {
+        font-size: 1.5rem;
+    }
+
+    .stat-info p {
+        font-size: 0.85rem;
+    }
+
+    
+    .tech-card {
+        padding: 20px 15px;
+    }
+
+    .tech-icon-wrapper i {
+        font-size: 2.5rem;
+    }
+
+    .tech-name {
+        font-size: 0.9rem;
+    }
+
+    
+    .projects-slider-container {
+        padding: 0 15px;
+    }
+
+    .projectsSwiper {
+        padding: 15px 0 60px;
+    }
+
+    
+    .projectsSwiper .swiper-button-next,
+    .projectsSwiper .swiper-button-prev {
+        display: none;
+    }
+
+    .project-card {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .swiper-slide {
+        width: 100% !important;
+    }
+
+    .project-image-wrapper {
+        height: 180px;
+    }
+
+    .project-content {
+        padding: 20px;
+    }
+
+    .project-title {
+        font-size: 1.3rem;
+    }
+
+    .project-description {
+        font-size: 0.95rem;
+    }
+
+    .tech-badge {
+        padding: 5px 12px;
+        font-size: 0.8rem;
+    }
+
+    
+    .contact-form {
+        padding: 30px 20px;
+    }
+
+    .form-control {
+        padding: 12px 16px;
+        font-size: 0.95rem;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 0.95rem;
+    }
+
+    
+    .footer {
+        padding: 40px 0 30px;
+    }
+
+    .footer::after {
+        width: 400px;
+        height: 400px;
+        bottom: -30%;
+        right: -20%;
+    }
+
+    .footer-brand .brand-icon {
+        font-size: 1.8rem;
+    }
+
+    .footer-brand h5 {
+        font-size: 1.2rem;
+    }
+
+    .footer-title {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    .footer-description {
+        font-size: 0.9rem;
+    }
+
+    .footer-links a {
+        font-size: 0.9rem;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .social-link {
+        width: 45px;
+        height: 45px;
+        font-size: 1.1rem;
+    }
+
+    .footer-divider {
+        margin: 30px 0 20px;
+    }
+
+    .footer-copyright {
+        font-size: 0.85rem;
+    }
+
+   
+    .navbar {
+        padding: 0.75rem 0;
+    }
+
+    .navbar-brand {
+        padding: 0.25rem 0;
+    }
+
+    .brand-icon {
+        font-size: 1.8rem;
+    }
+
+    .brand-title {
+        font-size: 1.15rem;
+    }
+
+    .brand-subtitle {
+        font-size: 0.65rem;
+    }
+
+    .nav-link {
+        padding: 10px 0 !important;
+        font-size: 1rem;
+    }
+
+    .nav-link-button {
+        margin-top: 15px;
+        padding: 10px 20px !important;
+    }
+
+    
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .hero-section h1 {
+        font-size: 1.75rem;
+    }
+
+    .typing-text {
+        font-size: 0.85rem;
+    }
+
+    .hero-buttons .btn {
+        min-width: 130px;
+        max-width: 160px;
+        padding: 12px 16px;
+        font-size: 0.85rem;
+    }
+
+    .hero-buttons .btn i {
+        font-size: 0.9rem;
+        margin-right: 6px !important;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .about-avatar {
+        width: 160px;
+        height: 160px;
+    }
+
+    .about-avatar i {
+        font-size: 4rem;
+    }
+
+    .projects-slider-container {
+        padding: 0 10px;
+    }
+
+   
+    .footer::after {
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer-brand .brand-icon {
+        font-size: 1.6rem;
+    }
+
+    .footer-brand h5 {
+        font-size: 1.1rem;
+    }
+
+    .footer-title {
+        font-size: 1rem;
+    }
+
+    .social-link {
+        width: 42px;
+        height: 42px;
+        font-size: 1rem;
+    }
+
+    .footer-copyright {
+        font-size: 0.8rem;
+    }
+}
+ 
