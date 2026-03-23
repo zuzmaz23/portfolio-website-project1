@@ -170,6 +170,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0;
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 35%, #0f3460 70%, #533483 100%);
     border: none;
+    margin-bottom: -1px;
+    overflow: hidden;
 }
 .hero-wave svg{
     display: block;
@@ -318,6 +320,7 @@ h1, h2, h3, h4, h5, h6 {
     50%{
         transform: scale(1.1);
     }
+    
 }
 .about-avatar{
     position: relative;
@@ -331,6 +334,8 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: var(--shadow-xl);
     z-index: 2;
     border: solid 8px white;
+   
+
 
 }
 .about-avatar i {
