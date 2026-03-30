@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initProjectsSwiper();
 });
 
+
 function initProjectsSwiper() {
     if (typeof Swiper !== 'undefined' && document.querySelector('.projectsSwiper')) {
         new Swiper('.projectsSwiper', {
