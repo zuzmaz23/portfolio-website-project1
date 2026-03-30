@@ -1,7 +1,34 @@
 document.addEventListener('DOMContentLoaded', function() {
     initParticles();
     initTypingEffect();
+    initProjectsSwiper();
 });
+
+function initProjectsSwiper() {
+    if (typeof Swiper !== 'undefined' && document.querySelector('.projectsSwiper')) {
+        new Swiper('.projectsSwiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    }
+}
 
 function initParticles() {
     if (typeof particlesJS !== 'undefined' && document.getElementById('particles-js')) {
